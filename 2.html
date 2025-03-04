@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-size: xx-large;
+    }
+</style>
+<body>
+    <p id="Logical"></p>
+    <p id="logical"></p>
+    <p id="Logical1"></p>
+    <p id="logical1"></p>
+    <script>
+        //if one side is true all condition are true --> ||
+        //if one side is false all condition are false --> &&
+        document.getElementById("Logical").innerHTML = true && false
+        document.getElementById("logical").innerHTML = true || false
+        document.getElementById("Logical1").innerHTML = (5>3) && (8>10)
+        document.getElementById("logical1").innerHTML = (5>3) || (8>10)
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        justify-content: center;
+        font-size: 50px;
+        color: black;
+        background: #1111;
+        width: 500px;
+        height: 65px;
+    }
+</style>
+<body>
+    <script>
+        //== -> equal to
+        //=== -> equal to and equal type
+        document.write(5 == 5);
+        document.write(5 === 5);
+        document.write(10 != 10);
+        document.write(10 !== 10);
+        document.write(a > c);
+        document.write(a < b);
+        // if condition are pendding for learn
+    </script>
+    <p id="Large"></p>
+<script>
+    let num1 = 1200
+    let num2 = 1500
+    let result = "";
+    if (num1 > num2) {
+        result = num1 + " is larger"
+    }
+    else if (num2 > num1){
+        result = num2 + " is larger"
+    }
+    else {
+        result = "Both Are Equal"
+    }
+    document.getElementById("Large").innerHTML = result;
+</script>
+</body>
+</html>

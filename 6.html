@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6</title>
+</head>
+<style>
+    body,p{
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: blanchedalmond;
+    }
+
+    button{
+        width: 25%;
+        height: 50px;
+        margin: 35px 35px;
+        overflow: hidden;
+        font-size: large;
+    }
+</style>
+<body>
+    <p id="demo">Click Event</p>
+    <p id="demo1">Double Click Event</p>
+
+    <button onclick="document.getElementById('demo').innerHTML=Date()">Click Event For Current Time!!</button>
+    <button ondblclick="document.getElementById('demo1').innerHTML=Date()">DBL Click Event For Current Time!!</button>
+
+    <p id="on-off">Hello! My Name is Parnav Patel!</p>
+    <button type="button" onclick='document.getElementById("on-off").innerText = "Hey! My Name is Himil Parmar"'>Click Me!</button>
+</body>
+</html>
